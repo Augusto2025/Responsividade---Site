@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Epilogue';
+    margin: 0%;
+}
+
+@media (max-width: 1300px) {
+    #navbar.navbar , .hiden, #hiden, #esquerda, .direita, .centro{
+        display: none; 
+    }
+}
+
+@media (min-width: 1300px) {
+    .cel-nav, .man, .h, .group, #h, #menu-sanduiche{
+        display: none;
+    }
+}
+
+.dis-cel {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group button{
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 150px;
+    font-size: larger;
+    padding: 13px 20px;
+    margin-top: 20px;
+}
+
+.group p{
+    color: hsl(0, 0%, 41%);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 700px;
+    margin-top: 150px;
+    align-items: flex-end;
+}
+
+.imag{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+}
+
+.man{
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar a{
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#navbar button{
+    border-style: none;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dropbtn {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn1 {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+    color: black;
+}
+
+.dropbtn1:hover {
+    color: black;
+}
+
+#btnTest:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-grad {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-grad a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-1 a:hover {
+    background-color: #ddd;
+}
+
+.todo, .calendar, .reminders, .plannig{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.todo a, .calendar a, .reminders a, .plannig a{
+    margin: 0%;
+    padding: 15px 10px;
+}
+
+.history, .blog, .team{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.history a, .blog a, .team a{
+    margin: 0%;
+    padding: 15px 10px;
+}
+
+.abo:hover {
+    color: black;
+}
+
+
+#login:hover{
+    color: black;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+}
+
+strong{
+    font-size: 40px;
+}
+
+.logar{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.registro{
+    border-style: groove;
+    border-width: 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.registro:hover {
+    color: black;
+    border-color: black;
+}
+
+
+.centro {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.esquerda h1{
+    font-size: 80px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.esquerda p{
+    color: hsl(0, 0%, 41%);
+    font-size: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.esquerda button{
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 150px;
+    font-size: larger;
+    padding: 13px 20px;
+    margin-top: 20px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.logos img{
+    align-self: flex-end;
+}
+
+.direita{
+    width: 25%;
+    min-width: 300px;
+    
+}
+
+.homem{
+    max-width: 450px;
+}
+
+.menu-sanduiche{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    padding-top: 50px;
+    font-size: 30px;
+    display: none;
+}
+
+
+.top{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.l{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-sanduiche p{
+    text-align: center;
+}
+
+.l button {
+    width: 50%;
+    font-size: 20px;
+}
+
+.menu .show {
+    display: block;
+}
+
+.Dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.Dropbtn {
+    background-color: white;
+    color: hsl(0, 0%, 41%);
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.Dropbtn:hover {
+    color: black;
+}
+
+.Dropdown-Content {
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.Dropdown-grad {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.Dropdown-grad a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.Dropdown a:hover {
+    background-color: #ddd;
+}
+
+.t, .c, .r, .p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.t a, .c a, .r a, .p a{
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    margin: 0%;
+    padding: 15px 10px;
+}
+
+.show{
+  display: block;
+}

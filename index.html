@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <div class="cel-nav">
+    <div class="dis-cel">
+      <strong>Snap</strong>
+      <a href="#" type="button" onclick="clickMenu()"><img src="/images/icon-menu.svg" alt=""></a>
+    </div>
+  </div>
+  <div class="imag">
+    <img class="man" src="images/image-hero-mobile.png" alt="">
+  </div>
+  <div id="h" class="group">
+    <h1 class= "h" >Make remote work</h1>
+    <p class= "h" >Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button class="h">Learn more</button>
+      <footer class="im">
+        <img class="h" src="./images/client-databiz.svg" alt="">
+        <img class="h" src="./images/client-audiophile.svg" alt="">
+        <img class="h" src="./images/client-meet.svg" alt="">
+        <img class="h" src="./images/client-maker.svg" alt="">
+      </footer>
+  </div>
+  
+  <div id="menu-sanduiche" class="menu-sanduiche">
+    <div class="top">
+      <a href="#" type="button" onclick="clickMenu()"><img src="/images/icon-close-menu.svg" alt=""></a>
+    </div>
+    <div class="Dropdown">
+        <button onclick="DropDown3(), trocaImagem()" class="Dropbtn">Features</button>
+        <img id="setaBaixo" src="/images/icon-arrow-down.svg" alt="">
+      <div id="MyDropdown" class="Dropdown-Content">
+        <div class="t">
+          <img src="./images/icon-todo.svg" alt="">
+          <a href="#">Todo List</a>
+        </div>
+        <div class="c">
+          <img src="./images/icon-calendar.svg" alt="">
+          <a href="#">Calendar</a>
+        </div>
+        <div class="r">
+          <img src="./images/icon-reminders.svg" alt="">
+          <a href="#">Reminders</a>
+        </div>
+        <div class="p">
+          <img src="/images/icon-planning.svg" alt="">
+          <a href="#">Planning</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="drop">
+      <button  onclick="DropDown2(), trocaImagem2()" class="dro">Company</button>
+      <img id="setaBaixo1" src="./images/icon-arrow-down.svg" alt="">
+      <div id="myDrop" class="dropd">
+        <div class="h">
+          <a href="#">History</a>
+        </div>
+        <div class="T">
+          <a href="">Our Team</a>
+        </div>
+        <div class="b">
+          <a href="">Blog</a>
+        </div>
+      </div>
+    </div>
+    <p>login</p>
+    <div class="l">
+        <button>Register</button>
+    </div>
+  </div>
+  
+  
+
+
+
+  <div id="navbar" class="navbar">
+    <strong>Snap</strong>
+    <div class="f-interativo">
+      <div class="dropdown">
+          <button onclick="dropDown(), trocaImagem()" class="dropbtn">Features</button>
+        <div id="myDropdown" class="dropdown-content">
+          <div class="todo">
+            <img src="./images/icon-todo.svg" alt="">
+            <a href="#">Todo List</a>
+          </div>
+          <div class="calendar">
+            <img src="./images/icon-calendar.svg" alt="">
+            <a href="#">Calendar</a>
+          </div>
+          <div class="reminders">
+            <img src="./images/icon-reminders.svg" alt="">
+            <a href="#">Reminders</a>
+          </div>
+          <div class="plannig">
+            <img src="/images/icon-planning.svg" alt="">
+            <a href="#">Planning</a>
+          </div>
+        </div>
+      </div>
+      <img id="setaBaixo" src="/images/icon-arrow-down.svg" alt="">
+    </div>
+
+
+
+    <div class="C-interativo">
+      <div class="dropdown-1">
+        <button  onclick="DropDown2(), trocaImagem2()" class="dropbtn1">Company</button>
+        <div id="myDropdown1" class="dropdown-grad">
+          <div class="history">
+            <a href="#">History</a>
+          </div>
+          <div class="team">
+            <a href="">Our Team</a>
+          </div>
+          <div class="blog">
+            <a href="">Blog</a>
+          </div>
+        </div>
+      </div>
+      <img id="setaBaixo1" src="./images/icon-arrow-down.svg" alt="">
+    </div>
+
+
+
+    <a href="#">Careers</a>
+    <a class="abo" href="#">About</a>
+    <div class="logar">
+      <a href="#" id="login">Login</a>
+      <a class="registro" href="#">Register</a>
+    </div>
+  </div>
+
+  <div class="centro">
+    <div id="esquerda" class="esquerda">
+      <h1 class="hiden">Make remote work</h1>
+      <p class="hiden">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button class="hiden" id="btnTest">Learn more</button>
+      <div class="logos">
+        <img class="hiden" src="./images/client-databiz.svg" alt="">
+        <img class="hiden" src="./images/client-audiophile.svg" alt="">
+        <img class="hiden" src="./images/client-meet.svg" alt="">
+        <img class="hiden" src="./images/client-maker.svg" alt="">
+      </div>
+    </div>
+    <div class="direita">
+      <img id="hiden" class="homem" src="images/image-hero-desktop.png" alt="">
+    </div>
+  </div>
+
+  <script src="/fun.js"></script>
+</body>
+</html>
